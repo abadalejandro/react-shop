@@ -1,0 +1,21 @@
+{
+  "name": "react-shop",
+  "version": "1.0.0",
+  "description": "React shop",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Alejandro Abad",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
