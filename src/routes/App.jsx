@@ -17,6 +17,13 @@ const App = () => {
                     <Route exact path="/" component={Home} />
                     <Route exact path='/login' component={Login} />
                     <Route exact path='/recovery-password' component={RecoveryPassword} />
+                    <Route exact path='/send-email' component={SendEmail} />
+                    <Route exact path='/new-password' component={NewPassword} />
+                    <Route exact path='/account' component={MyAccout} />
+                    <Route exact path='/signup' component={CreateAccount} />
+                    <Route exact path='/checkout' component={Checkout} />
+                    <Route exact path='/orders' component={Orders} />
+                    
                     <Route path='*' component={NotFound} />
                 </Switch>
             </Layout>
